@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=eage">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Health and medicine</title>
+        <ul class="navlist">
+            <li> <a href="index.html"> Social good</a></li>
+            <li> <a href="Health.html"> Health</a></li>
+            <li> <a href="Education.html"> Education</a></li>                
+            <li> <a href="Food.html"> Agriculture</a></li>
+            <li> <a href="Environment.html"> Environment</a></li>
+            <li> <a href="Urban.html"> Urban development</a></li>
+            <li> <a href="inequality.html"> Social inequalities</a></li>
+            <li> <a href="risk.html"> Challenges and risks</a></li>
+        </ul>  
+        <style>
+            .top-text {
+                text-align: center;
+                padding: 20px;
+                background-image: url("../images/pexels-daniel-frank-305568.jpg");
+                background-position: center;
+                background-size: cover;
+                color: #ffffff;
+                color: black;
+                font-family: 'Courier New', monospace;
+            }
+            .descriptions{
+                font-size: 16px;
+                margin-bottom: 20px;
+                text-align: center;
+                font-family:'Courier New', Courier, monospace;
+            }
+            figure {
+                text-align: center;
+            }
+            figcaption {
+                font-style: italic;
+                font-size: 12px;
+                margin-top: 5px;
+            }
+
+            .container {
+                display: flex; 
+                align-items: center; 
+            }
+    
+            .text {
+                flex: 1;
+                text-align: center; 
+                width: 50%; 
+                font-size: 20px; 
+                line-height: 2;
+            }
+    
+            .image {
+                flex: 1;
+                text-align: center; 
+                width: 50%; 
+            }
+
+            p{
+                font-size: 20px; 
+                line-height: 2;
+            }
+
+            .container2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .text2 {
+                order:2;
+                margin-left: 20px;
+            }
+            .video {   
+                order:1;
+                margin-right: 20px;
+            }
+
+            .container3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .textbox {
+                width: 50%;
+                background-color: rgba(211, 211, 211, 0.8);
+                text-align: center;
+                font-family: "Times New Roman", serif;
+                font-style: italic;     
+                padding: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="top-text">
+            <h1>Health and Medicine</h1>
+        </div>
+
+        <p class="descriptions">Using AI for disease prediction, drug development, and epidemic outbreak prediction</p>
+
+        <!-- <figure>
+            <img src="../images/overview_of_the_progress.png" width="30%" height="30%">
+            <figcaption>Overview of the progress, challenges and opportunities for AI in health. CMS, Centers for Medicare & Medicaid Services.</figcaption>
+        </figure> -->
+
+        <h1>Disease prediction</h1>
+        <div class="container">
+            <div class="text">
+                <p>AI algorithms can analyze large amounts of patient data, such as medical records, lab results, and genetic information, to identify patterns and predict the likelihood of developing certain diseases.</p>
+             </div>
+             <div class="image">
+                <figure>
+                <img src="../images/pexels-mart-production-7088524.jpg" width="50%" height="50%">
+                <figcaption>CT scans are not always able to pick up small narrowings in the arteries; however, AI software can generate risk scores for patients that can lead to their treatment plans being amended.</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <p>AI systems have achieved considerable improvements in accuracy for radiology tasks, including mammography interpretation cardiac function assessment and lung cancer screening, tackling not only diagnosis but also risk prediction and treatment. For instance, one AI system was trained to estimate 3-year lung cancer risk from radiologists’ computed tomography (CT) readings and other clinical information. These predictions could then be used to schedule follow-up CT scans for patients with cancer, augmenting current screening guidelines. Validation of such systems on multiple clinical sites and an increasing number of prospective evaluations have brought AI closer to being deployed and making a practical impact in the field of radiology.</p>
+
+        <h1>Drug development</h1>
+        <p>AI is revolutionizing the drug discovery process by accelerating the identification and development of potential new drugs. Machine learning algorithms can analyze vast amounts of biological and chemical data to identify patterns and predict the effectiveness of certain compounds as potential treatments. This helps researchers narrow down the search for promising drug candidates, saving time and resources.</p>
+        <div class="container">
+            <figure>
+            <img src="../images/Key_optimisation_aspects_of_AI_pharma.jpg" width="80%" height="80%">
+            <figcaption>Basic drug discovery process (simplified)</figcaption>
+            </figure>
+        </div>
+        <div style="text-align: center;">
+            <img src="../images/Major_diseases_of_concern.png" width="50%" height="50%">
+        </div>
+
+        <h1>Epidemic outbreak prediction</h1>
+        <div class="container2">
+             <div class="video">
+                <iframe width="448" height="252" src="https://www.youtube.com/embed/8luhuPY8gwo?si=sb7lP2ffJG-N7-vv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="text2">
+                <p>AI algorithms can analyze various data sources, including social media, news reports, and healthcare records, to detect early signs of an epidemic outbreak. By monitoring for specific keywords, symptoms, or geographical patterns, AI can help public health authorities identify potential hotspots, allocate resources, and take proactive measures to contain the spread of diseases like influenza, Zika, or COVID-19</p>
+             </div>
+        </div>
+        
+
+        <div class="container3">
+            <div class="textbox">
+                <p>Despite striking advances, the field of medical AI faces major technical challenges, particularly in terms of building user trust in AI systems and composing training datasets. Questions also remain about the regulation of AI in medicine and the ways in which AI may shift and create responsibilities throughout the healthcare system, affecting researchers, physicians and patients alike. Finally, there exist important ethical concerns about data use and equity in medical AI.</p>
+            </div>
+        </div>
+
+
+</html>

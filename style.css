@@ -1,0 +1,32 @@
+
+*
+{
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.nav{
+    height: 40px;
+    background: transparent;
+    /*linear-gradient(#f0f8ff,#60a2dd)*/
+}
+.navlist li{
+    float: left;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+}
+.navlist a{
+    color:black;
+    display: block;
+}
+.navlist{
+    width: 1300px;
+    margin: auto;
+}
+.navlist a:hover{
+    background: #f5f5f5
+}
+
